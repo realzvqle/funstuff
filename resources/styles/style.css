@@ -1,0 +1,35 @@
+
+
+
+
+
+
+body{
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(79, 79, 79, 0.436);
+    text-align: center;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color:rgb(9, 3, 55);
+    background-color: rgba(79, 79, 79, 0.436);
+}
+.button:hover {
+    background-color: rgba(117, 117, 117, 0.436);
+
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6{
+    color:rgb(9, 3, 55);
+}
+
+
