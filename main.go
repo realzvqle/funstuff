@@ -31,7 +31,7 @@ func main() {
 	})
 	router.POST("/nooo", func(c *gin.Context) {
 		i = 0
-		c.SetCookie("youfkced", "0", -1, "/", "", true, false)
+		c.SetCookie("youfkced", "0", 0, "/", "", true, false)
 		c.Redirect(http.StatusFound, "/")
 	})
 	router.Run(":8081")
