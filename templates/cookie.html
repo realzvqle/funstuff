@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/styles/style.css">
-    <link rel="icon" type="image/x-icon" href="/static/icon/pfp.ico">
 
     <title>{{.Title}}</title>
 </head>
 <body>
     <div class="container">
         <div class="centered-element">
-            <h1>You Failed</h1>
-            <h1>The Value is now {{.Counter}}, but you aren't counted anymore =(</h1>        
+            <h1>Accept Cookies to Use the Site<br><br>Cookies are used for making sure you didn't click the button</h1>
+            <br><br>
+            <form action="/acceptcookies" method="post">
+                <button type="submit" class="button">Accept Cookies</button>
+            </form>
         </div>
     </div>
+    
 </body>
 </html>

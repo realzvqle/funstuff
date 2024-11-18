@@ -6,22 +6,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/styles/style.css">
-    <link rel="icon" type="image/x-icon" href="/static/images/pfp.ico">
+    <link rel="icon" type="image/x-icon" href="/static/icon/pfp.ico">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Trust Site">
     <meta property="og:description" content="Can you be Trusted?">
-    <meta property="og:image" content="/static/images/pfp.ico">
+    <meta property="og:image" content="/static/icon/pfp.ico">
     <title>{{.Title}}</title>
 </head>
 <body>
-    <h1>TRUST GAME</h1>
-    <h1>You Are the {{.Counter}}th Visitor!</h1>
-    <h1>DO NOT PRESS THE BUTTON OR YOU'RE GONNA RESET THE COUNTER!</h1>
-    <br>
-    <br>
-    <form action="/nooo" method="post">
-    	<button type="submit" class="button">DO NOT CLICK ME</button>
-	</form>
+    <div class="container">
+        <div class="centered-element">
+            <h1>TRUST GAME</h1>
+            <h1>You Are the {{.Counter}}th Visitor!</h1>
+            <h1>DO NOT PRESS THE BUTTON OR YOU'RE GONNA RESET THE COUNTER!</h1>
+            <br>
+            <br>
+            <form action="/nooo" method="post">
+                <button type="submit" class="button">DO NOT CLICK ME</button>
+            </form>
+        </div>
+    </div>
 
 
 </body>
